@@ -24,3 +24,18 @@ body {
   margin-bottom: 50px;
   font-size: 2rem;
 }
+
+#main a {
+  transition: all .5s;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+#main a:hover {
+  background: #fff;
+  color: #2fdee7;
+}
