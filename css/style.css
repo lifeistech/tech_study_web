@@ -16,6 +16,11 @@ body {
   text-align: center;
 }
 
+.text-presents {
+  font-size: .8rem;
+  margin-bottom: 30px;
+}
+
 #main h2 {
   font-size: .9rem;
 }
