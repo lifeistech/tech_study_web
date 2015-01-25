@@ -8,6 +8,11 @@ body {
   background-size: cover;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 #main {
   width: 560px;
   margin: 0 auto;
