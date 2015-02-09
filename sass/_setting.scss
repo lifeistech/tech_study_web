@@ -1,0 +1,23 @@
+$black: #333;
+$white: #fff;
+$base-color: #fafafa;
+$main-color: #00BCD4;
+$accent-color: #E83E36;
+$space: 20px;
+$inner-width: 90%;
+
+@mixin btn-ghost($color) {
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px 30px;
+  border: 2px solid #fff;
+  text-align: center;
+  color: #fff;
+  background: transparent;
+  transition: all 0.1s;
+  &:hover {
+    background: #fff;
+    color: $color;
+  }
+}
