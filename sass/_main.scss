@@ -13,6 +13,10 @@ img {
   height: auto;
 }
 
+a {
+  color: $accent-color;
+}
+
 .inner {
   width: $inner-width;
   margin: 0 auto;
@@ -56,6 +60,7 @@ header {
     }
     h1 {
       margin-bottom: $space*2;
+      color: $main-color;
     }
   }
 }

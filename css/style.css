@@ -4,60 +4,51 @@
 
 body {
   color: #fff;
-  background: #fafafa; }
+  background: #fff; }
 
 img {
   max-width: 100%;
   height: auto; }
 
+a {
+  color: #0F0; }
+
 .inner {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
-  padding: 40px 0; }
+  padding: 0px 0; }
 
 header {
   background: #333;
-  padding: 10px; }
+  padding: 0px; }
   header h1 {
     font-size: 1rem; }
 
 #key-visual {
   background: url(../images/background.jpg);
   background-size: cover;
-  padding: 40px 0;
+  padding: 0px 0;
   text-align: center; }
   #key-visual .text-presents {
     font-size: 0.8rem;
-    margin-bottom: 20px; }
+    margin-bottom: 0px; }
   #key-visual h2 {
     font-size: 0.9rem; }
   #key-visual h3 {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     font-size: 2rem; }
-  #key-visual .btn-github {
-    text-decoration: none;
-    border-radius: 10px;
-    display: inline-block;
-    padding: 10px 30px;
-    border: 2px solid #fff;
-    text-align: center;
-    color: #fff;
-    background: transparent;
-    transition: all 0.1s; }
-    #key-visual .btn-github:hover {
-      background: #fff;
-      color: #00BCD4; }
 
 #content section {
   color: #333; }
   #content section:nth-child(even) {
-    background: #ededed; }
+    background: #f2f2f2; }
   #content section h1 {
-    margin-bottom: 40px; }
+    margin-bottom: 0px;
+    color: #00F; }
 
 footer {
   background: #333;
-  padding: 10px; }
+  padding: 0px; }
   footer .copyright {
     text-align: right; }
 
