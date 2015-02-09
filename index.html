@@ -43,24 +43,70 @@
 
   <div id="content">
 
-    <section id="main">
+    <section id="setting">
+      <div class="inner">
+        <h1>Brackets</h1>
+        <p>A modern, open source text editor that understands web design.</p>
+        <p><a href="http://brackets.io/" target="_blank">Download</a>
+        </p>
+
+        <h2>Install Packages</h2>
+        <ul>
+          <li>Emmet</li>
+          <li>Brackets SASS</li>
+          <li>Beautify</li>
+          <li>Indent Guides</li>
+          <li>Lorem Ipsum</li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section id="about">
       <div class="inner">
         <h1>About</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae placeat tenetur quisquam quasi facilis adipisci rerum assumenda soluta rem, vel, perspiciatis quos reiciendis repellendus quia in. Cum magnam ducimus inventore?</p>
+        <p>CSS on its own can be fun, but stylesheets are getting larger, more complex, and harder to maintain. This is where a preprocessor can help. Sass lets you use features that don't exist in CSS yet like variables, nesting, mixins, inheritance and other nifty goodies that make writing CSS fun again.</p>
       </div>
     </section>
 
-    <section id="function">
+    <section id="nesting">
       <div class="inner">
-        <h1>Function</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae placeat tenetur quisquam quasi facilis adipisci rerum assumenda soluta rem, vel, perspiciatis quos reiciendis repellendus quia in. Cum magnam ducimus inventore?</p>
+        <h1>Nesting</h1>
+        <p>
+          When writing HTML you've probably noticed that it has a clear nested and visual hierarchy. CSS, on the other hand, doesn't.
+          <br> Sass will let you nest your CSS selectors in a way that follows the same visual hierarchy of your HTML. Be aware that overly nested rules will result in over-qualified CSS that could prove hard to maintain and is generally considered bad practice.
+        </p>
       </div>
     </section>
 
-    <section id="method">
+    <section id="variables">
       <div class="inner">
-        <h1>Method</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae placeat tenetur quisquam quasi facilis adipisci rerum assumenda soluta rem, vel, perspiciatis quos reiciendis repellendus quia in. Cum magnam ducimus inventore?</p>
+        <h1>Variables</h1>
+        <p>Think of variables as a way to store information that you want to reuse throughout your stylesheet. You can store things like colors, font stacks, or any CSS value you think you'll want to reuse. Sass uses the $ symbol to make something a variable. </p>
+
+      </div>
+    </section>
+
+    <section id="functions">
+      <div class="inner">
+        <h1>Functions</h1>
+        <p>The following functions are provided.</p>
+        <a href="http://sass-lang.com/documentation/Sass/Script/Functions.html" target="_blank">Documents</a>
+        <ul>
+          <li>lighten(color, parameter)</li>
+          <li>darken(color, parameter)</li>
+          <li>saturate(color, parameter)</li>
+          <li>desaturate(color, parameter)</li>
+          <li>hsla(hue, saturation, lightness, alpha)</li>
+        </ul>
+            </div>
+    </section>
+
+   
+    <section id="mixins">
+      <div class="inner">
+        <h1>Mixins</h1>
+        <p>Some things in CSS are a bit tedious to write, especially with CSS3 and the many vendor prefixes that exist. A mixin lets you make groups of CSS declarations that you want to reuse throughout your site. You can even pass in values to make your mixin more flexible. A good use of a mixin is for vendor prefixes.</p>
       </div>
     </section>
 
